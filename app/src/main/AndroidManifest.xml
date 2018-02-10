@@ -76,7 +76,7 @@
             android:name=".tabtesting2"
             android:label="@string/title_activity_tabtesting2"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SemXCS"></activity>
+        <activity android:name=".SemXCS" />
     </application>
 
 </manifest>
