@@ -67,7 +67,16 @@
         <activity android:name=".Sem3EC" />
         <activity android:name=".Sem4EC" />
         <activity android:name=".Sem5EC" />
-        <activity android:name=".Sem6EC"></activity>
+        <activity android:name=".Sem6EC" />
+        <activity
+            android:name=".tabtesting"
+            android:label="@string/title_activity_tabtesting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tabtesting2"
+            android:label="@string/title_activity_tabtesting2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SemXCS"></activity>
     </application>
 
 </manifest>

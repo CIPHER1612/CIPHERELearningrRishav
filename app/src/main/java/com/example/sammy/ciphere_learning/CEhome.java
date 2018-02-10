@@ -81,7 +81,7 @@ public class CEhome extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.Sem1CE) {
+        /*if (id == R.id.Sem1CE) {
             Intent intent=new Intent(CEhome.this,Sem1CE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
@@ -122,7 +122,7 @@ public class CEhome extends AppCompatActivity
             startActivity(intent);
 
 
-        }
+        }*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

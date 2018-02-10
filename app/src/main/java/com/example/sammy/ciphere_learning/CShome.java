@@ -84,7 +84,7 @@ public class CShome extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.Sem1CS) {
+        /*if (id == R.id.Sem1CS) {
             Intent intent=new Intent(CShome.this,Sem1CS.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
@@ -125,7 +125,7 @@ public class CShome extends AppCompatActivity
             startActivity(intent);
 
 
-        }
+        }*/
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

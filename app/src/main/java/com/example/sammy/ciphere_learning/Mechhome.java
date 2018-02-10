@@ -81,7 +81,7 @@ public class Mechhome extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.Sem1Me) {
+        /*if (id == R.id.Sem1Me) {
             Intent intent=new Intent(Mechhome.this,Sem1Me.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
@@ -122,7 +122,7 @@ public class Mechhome extends AppCompatActivity
             startActivity(intent);
 
 
-        }
+        }*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
