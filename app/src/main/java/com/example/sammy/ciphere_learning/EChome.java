@@ -81,8 +81,8 @@ public class EChome extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        //if (id == R.id.Sem1EC) {
-         /*   Intent intent=new Intent(EChome.this,Sem1EC.class);
+        /*if (id == R.id.Sem1EC) {
+            Intent intent=new Intent(EChome.this,Sem1EC.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
