@@ -24,4 +24,6 @@
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
     <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_sem4_me">Sem4ME</string>
+    <string name="title_activity_sem2_ft">Sem2FT</string>
 </resources>

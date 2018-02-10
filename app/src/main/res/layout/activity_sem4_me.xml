@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sammy.ciphere_learning.Sem4CS">
+    tools:context="com.example.sammy.ciphere_learning.Sem4ME">
 
     <TextView
         android:id="@+id/textView3"
@@ -21,44 +21,44 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/Subject1"
+        android:id="@+id/Subj1ME"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:text="Data Structures using C"
+        android:text="Hydraulics and Pneumatics"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/Subject2"
+        android:id="@+id/Subj2ME"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:text="OOP with Java"
+        android:text="Basic Thermal Engineering"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subject1" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj1ME" />
 
     <Button
-        android:id="@+id/Subject3"
+        android:id="@+id/Subj3ME"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:text="Operating System"
+        android:text="Machine Tool Technology "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subject2" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj2ME" />
 
     <Button
-        android:id="@+id/Subject4"
+        android:id="@+id/Subj4ME"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -67,47 +67,47 @@
         android:text="Professional Ethics and Indian Constitution"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subject3" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj3ME" />
 
     <Button
-        android:id="@+id/Subject5"
+        android:id="@+id/Subj5ME"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Data Structures Lab"
+        android:text="Hydraulics and Pneumatics Lab"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subject4" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj4ME" />
 
     <Button
-        android:id="@+id/Subject6"
+        android:id="@+id/Subj6ME"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:text="OOP with Java Lab"
+        android:text="Machine shop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subject5" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj5ME" />
 
     <Button
-        android:id="@+id/Subj7CS"
+        android:id="@+id/Subj7ME"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:text="Linux Lab"
+        android:text="C Programming lab"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subject6" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj6ME" />
 
     <Button
-        android:id="@+id/Subj8CS"
+        android:id="@+id/Subj8ME"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -116,10 +116,10 @@
         android:text="Kannada Kali"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj7CS" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj7ME" />
 
     <Button
-        android:id="@+id/Subj9CS"
+        android:id="@+id/Subj9ME"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -129,5 +129,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj8CS" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj8ME" />
 </android.support.constraint.ConstraintLayout>
