@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Sem1Me"
+            android:icon="@drawable/ic_filter_1_black_24dp"
+            android:title="Semester 1" />
+        <item
+            android:id="@+id/Sem2Me"
+            android:icon="@drawable/ic_filter_1_black_24dp"
+            android:title="Semester 2" />
+        <item
+            android:id="@+id/Sem3Me"
+            android:icon="@drawable/ic_filter_1_black_24dp"
+            android:title="Semester 3" />
+        <item
+            android:id="@+id/Sem4Me"
+            android:icon="@drawable/ic_filter_1_black_24dp"
+            android:title="Semester 4" />
+        <item
+            android:id="@+id/Sem5Me"
+            android:icon="@drawable/ic_filter_1_black_24dp"
+            android:title="Semester 5" />
+        <item
+            android:id="@+id/Sem6Me"
+            android:icon="@drawable/ic_filter_1_black_24dp"
+            android:title="Semester 6" />
+    </group>
+</menu>

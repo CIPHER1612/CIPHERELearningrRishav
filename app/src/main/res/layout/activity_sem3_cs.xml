@@ -1,0 +1,84 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_scrollFlags="scroll|enterAlways"></android.support.v7.widget.Toolbar>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabMode="scrollable">
+
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="15CS31T" />
+
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="15CS32T" />
+
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="15CS33T" />
+
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="15CS34T" />
+
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="15CS35P" />
+
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="15CS36P" />
+
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="15CS37P" />
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="15KA3NT" />
+            <android.support.design.widget.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="15KA3KT" />
+
+
+        </android.support.design.widget.TabLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="android.support.design.widget.AppBarLayout$ScrollingViewBehavior">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.sammy.ciphere_learning.CSsem1frag">
+
+            <!-- TODO: Update blank fragment layout -->
+
+        </FrameLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

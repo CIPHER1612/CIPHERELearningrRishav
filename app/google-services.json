@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "967641472208",
+    "firebase_url": "https://ciphere-learn.firebaseio.com",
+    "project_id": "ciphere-learn",
+    "storage_bucket": "ciphere-learn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967641472208:android:beb698d64f44a1fb",
+        "android_client_info": {
+          "package_name": "cipher.ciphere_learn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967641472208-r4e70r0e1b1p2inc4e4s7lfcaldh4b79.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cipher.ciphere_learn",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "967641472208-up959a937dva8g642pootr4r3h7or6a4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cipher.ciphere_learn",
+            "certificate_hash": "029b5237fc23de1cf69a67cb8b2852887ea81ca7"
+          }
+        },
+        {
+          "client_id": "967641472208-vfsjjf3ijvmd705m45jch4cp2kh5qjov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDry8LqvqGPeJawGZIj3fimb9wxES6X2U0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967641472208-vfsjjf3ijvmd705m45jch4cp2kh5qjov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967641472208:android:c0a0fbb24528b94f",
+        "android_client_info": {
+          "package_name": "com.example.sammy.ciphere_learning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967641472208-pibop6ul896g8s1rduee20d2tenjmfpf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sammy.ciphere_learning",
+            "certificate_hash": "d3b6020fd5b06f1b7cfa1d1b0ce08b589c4f701d"
+          }
+        },
+        {
+          "client_id": "967641472208-vfsjjf3ijvmd705m45jch4cp2kh5qjov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDry8LqvqGPeJawGZIj3fimb9wxES6X2U0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967641472208-vfsjjf3ijvmd705m45jch4cp2kh5qjov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

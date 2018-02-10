@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/Sem1EC"
+        android:icon="@drawable/ic_filter_1_black_24dp"
+        android:title="Semester 1" />
+    <item
+        android:id="@+id/Sem2EC"
+        android:icon="@drawable/ic_filter_1_black_24dp"
+        android:title="Semester 2" />
+    <item
+        android:id="@+id/Sem3EC"
+        android:icon="@drawable/ic_filter_1_black_24dp"
+        android:title="Semester 3" />
+    <item
+        android:id="@+id/Sem4EC"
+        android:icon="@drawable/ic_filter_1_black_24dp"
+        android:title="Semester 4" />
+    <item
+        android:id="@+id/Sem5EC"
+        android:icon="@drawable/ic_filter_1_black_24dp"
+        android:title="Semester 5" />
+    <item
+        android:id="@+id/Sem6EC"
+        android:icon="@drawable/ic_filter_1_black_24dp"
+        android:title="Semester 6" />
+</menu>
