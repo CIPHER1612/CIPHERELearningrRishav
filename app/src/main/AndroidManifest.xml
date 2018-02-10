@@ -86,7 +86,11 @@
             android:name=".Sem2FT"
             android:label="@string/title_activity_sem2_ft"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Sem4FT"></activity>
+        <activity android:name=".Sem4FT" />
+        <activity android:name=".Sem2EE" />
+        <activity android:name=".Sem4EE" />
+        <activity android:name=".Sem3EE" />
+        <activity android:name=".Sem5EE"></activity>
     </application>
 
 </manifest>
