@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sammy.ciphere_learning.Sem4CS">
+    tools:context="com.example.sammy.ciphere_learning.Sem2FT">
 
     <TextView
         android:id="@+id/textView3"
@@ -21,113 +21,75 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/Subj1CS"
+        android:id="@+id/Subj1FT"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:text="Data Structures using C"
+        android:text="PATTERN ILLUSTRATION-I "
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/Subj2CS"
+        android:id="@+id/Subj2FT"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:text="OOP with Java"
+        android:text="FUNDAMENTALS OF SEWING TECHNIQUES"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj1CS" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj1FT" />
 
     <Button
-        android:id="@+id/Subj3CS"
+        android:id="@+id/Subj3FT"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:text="Operating System"
+        android:text="FASHION FUNDAMENTALS"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj2CS" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj2FT" />
 
     <Button
-        android:id="@+id/Subj4CS"
+        android:id="@+id/Subj4FT"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:text="Professional Ethics and Indian Constitution"
+        android:text="PATTERN DRAFTING  AND CONSTRUCTION-I"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj3CS" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj3FT" />
 
     <Button
-        android:id="@+id/Subj5CS"
+        android:id="@+id/Subj5FT"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Data Structures Lab"
+        android:text="BASIC SEWING CONSTRUCTION LAB"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj4CS" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj4FT" />
 
     <Button
-        android:id="@+id/Subj6CS"
+        android:id="@+id/Subj6FT"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="4dp"
-        android:text="OOP with Java Lab"
+        android:text="FASHION  SKETCHING and COLOUR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj5CS" />
-
-    <Button
-        android:id="@+id/Subj7CS"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
-        android:text="Linux Lab"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj6CS" />
-
-    <Button
-        android:id="@+id/Subj8CS"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
-        android:text="Kannada Kali"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj7CS" />
-
-    <Button
-        android:id="@+id/Subj9CS"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="4dp"
-        android:text="Kannada Tantrika"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj8CS" />
+        app:layout_constraintTop_toBottomOf="@+id/Subj5FT" />
 </android.support.constraint.ConstraintLayout>
