@@ -7,12 +7,12 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 
-public class Sem1CE extends AppCompatActivity implements View.OnClickListener {
+public class Sem6CE extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sem1_ce2);
+        setContentView(R.layout.activity_sem6_ce);
         findViewById(R.id.Subject1).setOnClickListener(this);
         findViewById(R.id.Subject2).setOnClickListener(this);
         findViewById(R.id.Subject3).setOnClickListener(this);
@@ -39,22 +39,22 @@ public class Sem1CE extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId()) {
            /* case R.id.Subject1:
-                startActivity(new Intent(this, CES1S1.class));
+                startActivity(new Intent(this, CES6S1.class));
                 break;
             case R.id.Subject2:
-                startActivity(new Intent(this, CES1S2.class));
+                startActivity(new Intent(this, CES6S2.class));
                 break;
             case R.id.Subject3:
-                startActivity(new Intent(this, CES1S3.class));
+                startActivity(new Intent(this, CES6S3.class));
                 break;
             case R.id.Subject4:
-                startActivity(new Intent(this, CES1S4.class));
+                startActivity(new Intent(this, CES6S4.class));
                 break;
             case R.id.Subject5:
-                startActivity(new Intent(this, CES1S5.class));
+                startActivity(new Intent(this, CES6S5.class));
                 break;
             case R.id.Subject6:
-                startActivity(new Intent(this, CES1S6.class));
+                startActivity(new Intent(this, CES6S6.class));
                 break;
 
 

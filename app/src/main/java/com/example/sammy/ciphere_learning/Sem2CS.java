@@ -1,6 +1,5 @@
 package com.example.sammy.ciphere_learning;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -12,12 +11,12 @@ public class Sem2CS extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sem2_cs);
-        findViewById(R.id.Subj1CS).setOnClickListener(this);
-        findViewById(R.id.Subj2CS).setOnClickListener(this);
-        findViewById(R.id.Subj3CS).setOnClickListener(this);
-        findViewById(R.id.Subj4CS).setOnClickListener(this);
-        findViewById(R.id.Subj5CS).setOnClickListener(this);
-        findViewById(R.id.Subj6CS).setOnClickListener(this);
+        findViewById(R.id.Subject1).setOnClickListener(this);
+        findViewById(R.id.Subject2).setOnClickListener(this);
+        findViewById(R.id.Subject3).setOnClickListener(this);
+        findViewById(R.id.Subject4).setOnClickListener(this);
+        findViewById(R.id.Subject5).setOnClickListener(this);
+        findViewById(R.id.Subject6).setOnClickListener(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
