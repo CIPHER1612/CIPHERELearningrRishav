@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class CS2S1 extends AppCompatActivity {
+public class CSS2S1 extends AppCompatActivity {
 
     ExpandableListView Exp_list;
     MoviesAdapter adapterX;

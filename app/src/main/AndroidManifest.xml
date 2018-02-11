@@ -91,7 +91,7 @@
         <activity android:name=".Sem4EE" />
         <activity android:name=".Sem3EE" />
         <activity android:name=".Sem5EE" />
-        <activity android:name=".CS2S1"></activity>
+        <activity android:name=".CSS2S1"></activity>
     </application>
 
 </manifest>
