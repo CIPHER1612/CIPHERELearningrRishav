@@ -18,7 +18,7 @@ public class Sem4CE extends AppCompatActivity implements View.OnClickListener {
         findViewById(R.id.Subj4CE).setOnClickListener(this);
         findViewById(R.id.Subj5CE).setOnClickListener(this);
         findViewById(R.id.Subj6CE).setOnClickListener(this);
-        findViewById(R.id.Subj7CE).setOnClickListener(this);
+        //findViewById(R.id.Subj7CE).setOnClickListener(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 

@@ -77,6 +77,136 @@
             android:label="@string/title_activity_tabtesting2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".SemXCS" />
+        <activity android:name=".Sem1EE" />
+        <activity android:name=".Sem6EE" />
+        <activity
+            android:name=".ECS5S1"
+            android:label="@string/title_activity_ecs5_s1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS5S2"
+            android:label="@string/title_activity_ecs5_s2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS5S3"
+            android:label="@string/title_activity_ecs5_s3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS5S4"
+            android:label="@string/title_activity_ecs5_s4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS1S1"
+            android:label="@string/title_activity_ecs1_s1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS1S2"
+            android:label="@string/title_activity_ecs1_s2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS1S3"
+            android:label="@string/title_activity_ecs1_s3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS2S1"
+            android:label="@string/title_activity_ecs2_s1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS2S2"
+            android:label="@string/title_activity_ecs2_s2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS2S3"
+            android:label="@string/title_activity_ecs2_s3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS3S1"
+            android:label="@string/title_activity_ecs3_s1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS3S2"
+            android:label="@string/title_activity_ecs3_s2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS3S3"
+            android:label="@string/title_activity_ecs3_s3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS3S4"
+            android:label="@string/title_activity_ecs3_s4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS4S1"
+            android:label="@string/title_activity_ecs4_s1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS4S2"
+            android:label="@string/title_activity_ecs4_s2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS4S3"
+            android:label="@string/title_activity_ecs4_s3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS4S4"
+            android:label="@string/title_activity_ecs4_s4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS6S1"
+            android:label="@string/title_activity_ecs6_s1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS6S2"
+            android:label="@string/title_activity_ecs6_s2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ECS6S3"
+            android:label="@string/title_activity_ecs6_s3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CES1S1"
+            android:label="@string/title_activity_ces1_s1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CES1S2"
+            android:label="@string/title_activity_ces1_s2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CES1S3"
+            android:label="@string/title_activity_ces1_s3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CES2S1"
+            android:label="@string/title_activity_ces2_s1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CES2S2"
+            android:label="@string/title_activity_ces2_s2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CES2S3"
+            android:label="@string/title_activity_ces2_s3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CES3S1"
+            android:label="@string/title_activity_ces3_s1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CES3S2"
+            android:label="@string/title_activity_ces3_s2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CES3S3"
+            android:label="@string/title_activity_ces3_s3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CES3S4"
+            android:label="@string/title_activity_ces3_s4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CES4S1"
+            android:label="@string/title_activity_ces4_s1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
