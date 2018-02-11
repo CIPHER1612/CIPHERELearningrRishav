@@ -4,17 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.sammy.ciphere_learning.CShome"
-    tools:showIn="@layout/app_bar_cshome">
+    tools:context="com.example.sammy.ciphere_learning.CS2S1">
 
-    <FrameLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+    <ExpandableListView
+        android:id="@+id/exp_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#A4C739"
+        android:dividerHeight="0.5dp"
+        android:headerDividersEnabled="false"
+
+        android:indicatorLeft="?android:attr/expandableListPreferredItemPaddingLeft"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent" />
 
-    </FrameLayout>
 </android.support.constraint.ConstraintLayout>

@@ -11,7 +11,7 @@ public class Sem4CE extends AppCompatActivity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sem2_ce);
+        setContentView(R.layout.activity_sem4_ce);
         findViewById(R.id.Subj1CE).setOnClickListener(this);
         findViewById(R.id.Subj2CE).setOnClickListener(this);
         findViewById(R.id.Subj3CE).setOnClickListener(this);

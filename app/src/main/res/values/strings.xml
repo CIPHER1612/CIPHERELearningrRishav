@@ -9,21 +9,15 @@
     <string name="password">Password</string>
     <string name="log_in">Log-In</string>
     <string name="register">Register</string>
-    <string name="register_number">Register Number</string>
     <string name="email">Email</string>
     <string name="title_activity_mechhome">Mechhome</string>
     <string name="title_activity_cshome">CShome</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_cehome">CEhome</string>
     <string name="title_activity_echome">EChome</string>
     <string name="title_activity_tabtesting">tabtesting</string>
-    <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_tabtesting2">tabtesting2</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="tab_text_3">Tab 3</string>
     <string name="title_activity_sem4_me">Sem4ME</string>
     <string name="title_activity_sem2_ft">Sem2FT</string>
 </resources>
