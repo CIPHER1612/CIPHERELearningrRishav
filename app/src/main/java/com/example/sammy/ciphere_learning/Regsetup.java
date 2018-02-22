@@ -46,6 +46,7 @@ public class Regsetup extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        ActivityCompat.requestPermissions(Regsetup.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
         super.onCreate(savedInstanceState);
         Fstore=FirebaseFirestore.getInstance();
         setContentView(R.layout.activity_regsetup);
@@ -66,7 +67,9 @@ public class Regsetup extends AppCompatActivity {
                     String fullname = Name.getText().toString();
                     String dept = Deptid.getText().toString();
 
-                    if (!TextUtils.isEmpty(fullname)&& mainImageURI!=null){
+                if (TextUtils.isEmpty(fullname) && mainImageURI == null) {
+                    Toast.makeText(Regsetup.this, "Please upload your photo", Toast.LENGTH_LONG).show();
+                } else {
                         String usid = firebaseAuth.getCurrentUser().getUid();
                         Map<String,String> userMap = new HashMap<>();
                         userMap.put("Name",fullname);
@@ -107,7 +110,7 @@ public class Regsetup extends AppCompatActivity {
                 if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.M)
                 {
                     if (ContextCompat.checkSelfPermission(Regsetup.this, Manifest.permission.READ_EXTERNAL_STORAGE)!= PackageManager.PERMISSION_GRANTED) {
-                        Toast.makeText(Regsetup.this, "Permission Denied", Toast.LENGTH_LONG).show();
+
                         ActivityCompat.requestPermissions(Regsetup.this,new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},1);
                     } else {
                         CropImage.activity()

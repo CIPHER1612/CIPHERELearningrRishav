@@ -8,17 +8,17 @@ import java.util.List;
  * Created by sammy on 11-02-2018.
  */
 
-public class DataProvider {
+public class DataProviderCSS2S1 {
     public static HashMap<String, List<String>> getInfo() {
 
         HashMap<String, List<String>> MoviesDetails = new HashMap<String, List<String>>();
 
-        List<String> Coordinate_Geometry = new ArrayList<String>();
-        Coordinate_Geometry.add("Notes");
-        Coordinate_Geometry.add("Textbook");
-        Coordinate_Geometry.add("Syllabus");
-        Coordinate_Geometry.add("Question Papers");
-        Coordinate_Geometry.add("Videos");
+        List<String> Digital_and_Computer_Fundamentals = new ArrayList<String>();
+        Digital_and_Computer_Fundamentals.add("Notes");
+        Digital_and_Computer_Fundamentals.add("Textbook");
+        Digital_and_Computer_Fundamentals.add("Syllabus");
+        Digital_and_Computer_Fundamentals.add("Question Papers");
+        Digital_and_Computer_Fundamentals.add("Videos");
         List<String> Differential_Calculus = new ArrayList<String>();
         Differential_Calculus.add("Notes");
         Differential_Calculus.add("Textbook");
@@ -51,7 +51,7 @@ public class DataProvider {
         Differential_Equiations.add("Question Papers");
         Differential_Equiations.add("Videos");
 
-        MoviesDetails.put("Co-ordinate Geometry", Coordinate_Geometry);
+        MoviesDetails.put("Co-ordinate Geometry", Digital_and_Computer_Fundamentals);
         MoviesDetails.put("Differenatial Calculus", Differential_Calculus);
         MoviesDetails.put("Applications of Differentiation", Applications_of_Differentiation);
         MoviesDetails.put("Integral Calculus", Integral_Calculus);
