@@ -232,7 +232,14 @@
         <activity android:name=".CSS1S6" />
         <activity android:name=".CSS2S3" />
         <activity android:name=".CSS3S5" />
-        <activity android:name=".CSS3S2"></activity>
+        <activity android:name=".CSS3S2" />
+        <activity android:name=".CSS5S1" />
+        <activity android:name=".CSS5S2" />
+        <activity android:name=".CSS5S3" />
+        <activity android:name=".CSS5S4" />
+        <activity android:name=".CSS5S5" />
+        <activity android:name=".CSS5S6" />
+        <activity android:name=".CSS5S7"></activity>
     </application>
 
 </manifest>
