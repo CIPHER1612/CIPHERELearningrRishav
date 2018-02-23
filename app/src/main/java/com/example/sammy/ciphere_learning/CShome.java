@@ -84,34 +84,34 @@ public class CShome extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.Sem1CS) {
-            Intent intent = new Intent(CShome.this, Sem2CS.class);
+        /*if (id == R.id.Sem1CS) {
+            Intent intent = new Intent(CShome.this, Sem1CS.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }
-        /*if (id == R.id.Sem2CS) {
+        }*/
+        if (id == R.id.Sem2CS) {
             Intent intent=new Intent(CShome.this,Sem2CS.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }
+        }/*
         if (id == R.id.Sem3CS) {
             Intent intent=new Intent(CShome.this,Sem3CS.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }
+        }*/
         if (id == R.id.Sem4CS) {
             Intent intent=new Intent(CShome.this,Sem4CS.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }
+        }/*
         if (id == R.id.Sem5CS) {
             Intent intent=new Intent(CShome.this,Sem5CS.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
