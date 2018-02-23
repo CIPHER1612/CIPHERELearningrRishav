@@ -1,5 +1,6 @@
 package com.example.sammy.ciphere_learning;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -81,28 +82,28 @@ public class ADFThome extends AppCompatActivity
         int id = item.getItemId();
 
        /*if (id == R.id.Sem1FT) {
-            Intent intent=new Intent(FThome.this,Sem1FT.class);
+            Intent intent=new Intent(ADFThome.this,Sem1FT.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }*/
+        }
         /*if (id == R.id.Sem2FT) {
-            Intent intent=new Intent(FThome.this,Sem2FT.class);
+            Intent intent=new Intent(ADFThome.this,Sem2FT.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
         }/*
         if (id == R.id.Sem3FT) {
-            Intent intent=new Intent(FThome.this,Sem3FT.class);
+            Intent intent=new Intent(ADFThome.this,Sem3FT.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
         }
         if (id == R.id.Sem4FT) {
-            Intent intent=new Intent(FThome.this,Sem4FT.class);
+            Intent intent=new Intent(ADFThome.this,Sem4FT.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
@@ -110,7 +111,7 @@ public class ADFThome extends AppCompatActivity
 
         }/*
         if (id == R.id.Sem5FT) {
-            Intent intent=new Intent(FThome.this,Sem5FT.class);
+            Intent intent=new Intent(ADFThome.this,Sem5FT.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
@@ -118,7 +119,7 @@ public class ADFThome extends AppCompatActivity
         }*/
         /*
         if (id == R.id.Sem6FT) {
-            Intent intent=new Intent(FThome.this,Sem6FT.class);
+            Intent intent=new Intent(ADFThome.this,Sem6FT.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
