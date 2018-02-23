@@ -81,20 +81,20 @@ public class ADFThome extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-       /*if (id == R.id.Sem1FT) {
+       if (id == R.id.Sem1FT) {
             Intent intent=new Intent(ADFThome.this,Sem1FT.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
         }
-        /*if (id == R.id.Sem2FT) {
+        if (id == R.id.Sem2FT) {
             Intent intent=new Intent(ADFThome.this,Sem2FT.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }/*
+        }
         if (id == R.id.Sem3FT) {
             Intent intent=new Intent(ADFThome.this,Sem3FT.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -109,22 +109,22 @@ public class ADFThome extends AppCompatActivity
 
 
 
-        }/*
+        }
         if (id == R.id.Sem5FT) {
             Intent intent=new Intent(ADFThome.this,Sem5FT.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }*/
-        /*
+        }
+
         if (id == R.id.Sem6FT) {
             Intent intent=new Intent(ADFThome.this,Sem6FT.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }*/
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
