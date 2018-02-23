@@ -24,7 +24,7 @@ public class CSS1S6 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_css1_s6);
         Exp_list = findViewById(R.id.exp_listcss1s6);
-        Movies_category = DataProviderCSS2S1.getInfo();
+        Movies_category = DataProviderCSS1S6.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());
         adapterX = new MoviesAdapter(this, Movies_category, Movies_list);
         Exp_list.setAdapter(adapterX);
