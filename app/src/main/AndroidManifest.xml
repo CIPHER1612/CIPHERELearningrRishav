@@ -239,7 +239,13 @@
         <activity android:name=".CSS5S4" />
         <activity android:name=".CSS5S5" />
         <activity android:name=".CSS5S6" />
-        <activity android:name=".CSS5S7"></activity>
+        <activity android:name=".CSS5S7" />
+        <activity android:name=".CSS6S1" />
+        <activity android:name=".CSS6S2" />
+        <activity android:name=".CSS6S3" />
+        <activity android:name=".CSS6S4" />
+        <activity android:name=".CSS6S5" />
+        <activity android:name=".CSS6S6"></activity>
     </application>
 
 </manifest>
