@@ -51,12 +51,12 @@ public class DataProviderCSS5S3 {
         Differential_Equiations.add("Question Papers");
         Differential_Equiations.add("Videos");
 
-        MoviesDetails.put("Human Values", Digital_and_Computer_Fundamentals);
-        MoviesDetails.put("Engineering Ethics", Differential_Calculus);
-        MoviesDetails.put("Safety,Responsibilites of Engineers", Applications_of_Differentiation);
-        MoviesDetails.put("Ethical issues in Engineering Practice", Integral_Calculus);
-        MoviesDetails.put("Human Rights", Definite_Integrals_and_its_Applicaitons);
-        MoviesDetails.put("Indian Constitution", Differential_Equiations);
+        MoviesDetails.put("Introduction", Digital_and_Computer_Fundamentals);
+        MoviesDetails.put("Fundamentals of The Analysis of Algorithm Effciency", Differential_Calculus);
+        MoviesDetails.put("Brute Force", Applications_of_Differentiation);
+        MoviesDetails.put("Divide and Conquer", Integral_Calculus);
+        MoviesDetails.put("Decrease and Conquer", Definite_Integrals_and_its_Applicaitons);
+        MoviesDetails.put("Greedy Tehnique", Differential_Equiations);
         return MoviesDetails;
 
     }
