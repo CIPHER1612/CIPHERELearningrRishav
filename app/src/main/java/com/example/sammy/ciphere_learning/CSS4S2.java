@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class CSS3S2 extends AppCompatActivity {
+public class CSS4S2 extends AppCompatActivity {
 
     ExpandableListView Exp_list;
     MoviesAdapter adapterX;
@@ -22,9 +22,9 @@ public class CSS3S2 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_css3_s2);
-        Exp_list = findViewById(R.id.exp_listcss3s2);
-        Movies_category = DataProviderCSS3S2.getInfo();
+        setContentView(R.layout.activity_css4_s2);
+        Exp_list = findViewById(R.id.exp_listcss4s2);
+        Movies_category = DataProviderCSS4S2.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());
         adapterX = new MoviesAdapter(this, Movies_category, Movies_list);
         Exp_list.setAdapter(adapterX);

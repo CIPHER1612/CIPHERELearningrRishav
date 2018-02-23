@@ -8,7 +8,7 @@ import java.util.List;
  * Created by sammy on 11-02-2018.
  */
 
-public class DataProviderCSS3S1 {
+public class DataProviderCSS4S3 {
     public static HashMap<String, List<String>> getInfo() {
 
         HashMap<String, List<String>> MoviesDetails = new HashMap<String, List<String>>();
@@ -51,12 +51,12 @@ public class DataProviderCSS3S1 {
         Differential_Equiations.add("Question Papers");
         Differential_Equiations.add("Videos");
 
-        MoviesDetails.put("Introduction to 'C' Language", Digital_and_Computer_Fundamentals);
-        MoviesDetails.put("Decision making-Branching and Looping", Differential_Calculus);
-        MoviesDetails.put("Functions", Applications_of_Differentiation);
-        MoviesDetails.put("Arrays", Integral_Calculus);
-        MoviesDetails.put("Strings and Pre-processors", Definite_Integrals_and_its_Applicaitons);
-        MoviesDetails.put("Structures and Unions", Differential_Equiations);
+        MoviesDetails.put("Introduction to Operating System", Digital_and_Computer_Fundamentals);
+        MoviesDetails.put("Process Management", Differential_Calculus);
+        MoviesDetails.put("Synchronization & Deadlocks", Applications_of_Differentiation);
+        MoviesDetails.put("Memory Management Strategies", Integral_Calculus);
+        MoviesDetails.put(" Virtual Memory Management", Definite_Integrals_and_its_Applicaitons);
+        MoviesDetails.put("File System", Differential_Equiations);
         return MoviesDetails;
 
     }
