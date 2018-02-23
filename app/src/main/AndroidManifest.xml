@@ -206,6 +206,18 @@
         <activity
             android:name=".CES4S1"
             android:label="@string/title_activity_ces4_s1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MEhome"
+            android:label="@string/title_activity_mehome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ADFThome"
+            android:label="@string/title_activity_adfthome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EEhome"
+            android:label="@string/title_activity_eehome"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

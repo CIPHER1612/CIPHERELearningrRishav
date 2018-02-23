@@ -88,7 +88,7 @@ public class CEhome extends AppCompatActivity
 
 
         }*/
-        if (id == R.id.Sem2CE) {
+        /*if (id == R.id.Sem2CE) {
             Intent intent=new Intent(CEhome.this,Sem2CE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
@@ -101,11 +101,12 @@ public class CEhome extends AppCompatActivity
             startActivity(intent);
 
 
-        }*/
+        }
         if (id == R.id.Sem4CE) {
             Intent intent=new Intent(CEhome.this,Sem4CE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
+
 
 
         }/*

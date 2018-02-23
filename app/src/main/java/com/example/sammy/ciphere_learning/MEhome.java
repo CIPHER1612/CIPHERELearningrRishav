@@ -34,7 +34,7 @@ public class MEhome extends AppCompatActivity
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-            this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
@@ -79,20 +79,51 @@ public class MEhome extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+         /*if (id == R.id.Sem1ME) {
+            Intent intent=new Intent(MEhome.this,Sem1ME.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
 
-        } else if (id == R.id.nav_slideshow) {
+        }*/
+        /*if (id == R.id.Sem2ME) {
+            Intent intent=new Intent(MEhome.this,Sem2ME.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
+        }/*
+        if (id == R.id.Sem3ME) {
+            Intent intent=new Intent(MEhome.this,Sem3ME.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_send) {
 
         }
+        if (id == R.id.Sem4ME) {
+            Intent intent=new Intent(MEhome.this,Sem4ME.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+
+
+
+        }/*
+        if (id == R.id.Sem5ME) {
+            Intent intent=new Intent(MEhome.this,Sem5ME.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+
+
+        }*/
+        /*
+        if (id == R.id.Sem6ME) {
+            Intent intent=new Intent(MEhome.this,Sem6ME.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+
+
+        }*/
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

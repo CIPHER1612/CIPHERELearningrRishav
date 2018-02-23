@@ -50,4 +50,7 @@
     <string name="title_activity_ces3_s3">CES3S3</string>
     <string name="title_activity_ces3_s4">CES3S4</string>
     <string name="title_activity_ces4_s1">CES4S1</string>
+    <string name="title_activity_mehome">MEhome</string>
+    <string name="title_activity_adfthome">ADFThome</string>
+    <string name="title_activity_eehome">EEhome</string>
 </resources>

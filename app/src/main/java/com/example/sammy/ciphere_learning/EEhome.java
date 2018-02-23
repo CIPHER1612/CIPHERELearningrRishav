@@ -80,19 +80,50 @@ public class EEhome extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        /*if (id == R.id.Sem1EE) {
+            Intent intent=new Intent(EEhome.this,Sem1EE.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_slideshow) {
 
-        } else if (id == R.id.nav_manage) {
+        }*/
+        /*if (id == R.id.Sem2EE) {
+            Intent intent=new Intent(EEhome.this,Sem2EE.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
+        }/*
+        if (id == R.id.Sem3EE) {
+            Intent intent=new Intent(EEhome.this,Sem3EE.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+
 
         }
+        if (id == R.id.Sem4EE) {
+            Intent intent=new Intent(EEhome.this,Sem4EE.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+
+
+
+        }/*
+        if (id == R.id.Sem5EE) {
+            Intent intent=new Intent(EEhome.this,Sem5EE.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+
+
+        }*/
+        /*
+        if (id == R.id.Sem6EE) {
+            Intent intent=new Intent(EEhome.this,Sem6EE.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+
+
+        }*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

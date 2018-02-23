@@ -80,19 +80,50 @@ public class ADFThome extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+       /*if (id == R.id.Sem1FT) {
+            Intent intent=new Intent(FThome.this,Sem1FT.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_slideshow) {
 
-        } else if (id == R.id.nav_manage) {
+        }*/
+        /*if (id == R.id.Sem2FT) {
+            Intent intent=new Intent(FThome.this,Sem2FT.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_share) {
 
-        } else if (id == R.id.nav_send) {
+        }/*
+        if (id == R.id.Sem3FT) {
+            Intent intent=new Intent(FThome.this,Sem3FT.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+
 
         }
+        if (id == R.id.Sem4FT) {
+            Intent intent=new Intent(FThome.this,Sem4FT.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+
+
+
+        }/*
+        if (id == R.id.Sem5FT) {
+            Intent intent=new Intent(FThome.this,Sem5FT.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+
+
+        }*/
+        /*
+        if (id == R.id.Sem6FT) {
+            Intent intent=new Intent(FThome.this,Sem6FT.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
+
+
+        }*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
