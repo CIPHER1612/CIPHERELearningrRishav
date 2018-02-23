@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CIPHERELearning.iml" filepath="$PROJECT_DIR$/CIPHERELearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CIPHERELearning.iml" filepath="$PROJECT_DIR$/.idea/CIPHERELearning.iml" />
+      <module fileurl="file://C:\Users\sammy\AndroidStudioProjects\CIPHERELearning\CIPHERELearning.iml" filepath="C:\Users\sammy\AndroidStudioProjects\CIPHERELearning\CIPHERELearning.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

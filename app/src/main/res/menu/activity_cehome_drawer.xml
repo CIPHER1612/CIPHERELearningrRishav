@@ -8,14 +8,12 @@
         android:icon="@drawable/ic_filter_1_black_24dp"
         android:title="Semester 1" />
     <item
-        android:id="@+id/Sem2CE"
         android:icon="@drawable/ic_filter_1_black_24dp"
         android:title="Semester 2" />
     <item
         android:icon="@drawable/ic_filter_1_black_24dp"
         android:title="Semester 3" />
     <item
-        android:id="@+id/Sem4CE"
         android:icon="@drawable/ic_filter_1_black_24dp"
         android:title="Semester 4" />
     <item

@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/Subj1CS"
+        android:id="@+id/Subject1"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
-        android:id="@+id/Subj2CS"
+        android:id="@+id/Subject2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -43,10 +43,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj1CS" />
+        app:layout_constraintTop_toBottomOf="@+id/Subject1" />
 
     <Button
-        android:id="@+id/Subj3CS"
+        android:id="@+id/Subject3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -55,10 +55,10 @@
         android:text="Digital and Computer fundamentals"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj2CS" />
+        app:layout_constraintTop_toBottomOf="@+id/Subject2" />
 
     <Button
-        android:id="@+id/Subj4CS"
+        android:id="@+id/Subject4"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -67,10 +67,10 @@
         android:text="Digital Electronics Lab"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj3CS" />
+        app:layout_constraintTop_toBottomOf="@+id/Subject3" />
 
     <Button
-        android:id="@+id/Subj5CS"
+        android:id="@+id/Subject5"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -79,10 +79,10 @@
         android:text="Basic Web Design Lab"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj4CS" />
+        app:layout_constraintTop_toBottomOf="@+id/Subject4" />
 
     <Button
-        android:id="@+id/Subj6CS"
+        android:id="@+id/Subject6"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -91,5 +91,5 @@
         android:text="Multimedia lab"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Subj5CS" />
+        app:layout_constraintTop_toBottomOf="@+id/Subject5" />
 </android.support.constraint.ConstraintLayout>
