@@ -4,21 +4,27 @@
     tools:showIn="navigation_view">
 
     <item
+        android:id="@+id/Sem1FT"
         android:icon="@drawable/ic_filter_1_black_24dp"
         android:title="Semester 1" />
     <item
+        android:id="@+id/Sem2FT"
         android:icon="@drawable/ic_filter_1_black_24dp"
         android:title="Semester 2" />
     <item
+        android:id="@+id/Sem3FT"
         android:icon="@drawable/ic_filter_1_black_24dp"
         android:title="Semester 3" />
     <item
+        android:id="@+id/Sem4FT"
         android:icon="@drawable/ic_filter_1_black_24dp"
         android:title="Semester 4" />
     <item
+        android:id="@+id/Sem5FT"
         android:icon="@drawable/ic_filter_1_black_24dp"
         android:title="Semester 5" />
     <item
+        android:id="@+id/Sem6FT"
         android:icon="@drawable/ic_filter_1_black_24dp"
         android:title="Semester 6" />
 
