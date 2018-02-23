@@ -24,7 +24,7 @@ public class CSS3S3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_css3_s3);
         Exp_list = findViewById(R.id.exp_listcss3s3);
-        Movies_category = DataProviderCSS2S2.getInfo();
+        Movies_category = DataProviderCSS3S3.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());
         adapterX = new MoviesAdapter(this, Movies_category, Movies_list);
         Exp_list.setAdapter(adapterX);
