@@ -38,13 +38,13 @@ public boolean onOptionsItemSelected(MenuItem item) {
 @Override
 public void onClick(View view) {
         switch (view.getId()) {
-           /* case R.id.Subject1:
-                startActivity(new Intent(this, ECS1S1.class));
+            case R.id.Subject1:
+                startActivity(new Intent(this, CSS1S1.class));
                 break;
             case R.id.Subject2:
-                startActivity(new Intent(this, ECS1S2.class));
+                startActivity(new Intent(this, CSS1S2.class));
                 break;
-            case R.id.Subject3:
+            /*case R.id.Subject3:
                 startActivity(new Intent(this, ECS1S3.class));
                 break;
             case R.id.Subject4:
@@ -52,13 +52,13 @@ public void onClick(View view) {
                 break;
             case R.id.Subject5:
                 startActivity(new Intent(this, ECS1S5.class));
-                break;
+                break;*/
             case R.id.Subject6:
-                startActivity(new Intent(this, ECS1S6.class));
+                startActivity(new Intent(this, CSS1S6.class));
                 break;
 
 
-        */
+
         }
 
         }
