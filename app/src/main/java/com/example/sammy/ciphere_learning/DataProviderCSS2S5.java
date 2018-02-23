@@ -19,10 +19,16 @@ public class DataProviderCSS2S5 {
         CARRER_PLANNING.add("Syllabus");
         CARRER_PLANNING.add("Question Papers");
         CARRER_PLANNING.add("Videos");
+        List<String>JK= new ArrayList<String>();
+        CARRER_PLANNING.add("Notes");
+        CARRER_PLANNING.add("Textbook");
+        CARRER_PLANNING.add("Syllabus");
+        CARRER_PLANNING.add("Question Papers");
+        CARRER_PLANNING.add("Videos");
 
 
         MoviesDetails.put("UNIT-1", CARRER_PLANNING);
-        MoviesDetails.put("UNIT-2", THE_GREAT_INDIAN_PSYCHOTHERAPY);
+        MoviesDetails.put("UNIT-2", JK);
 
         return MoviesDetails;
 
