@@ -1,5 +1,6 @@
 package com.example.sammy.ciphere_learning;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -80,20 +81,20 @@ public class EEhome extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        /*if (id == R.id.Sem1EE) {
+        if (id == R.id.Sem1EE) {
             Intent intent=new Intent(EEhome.this,Sem1EE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }*/
-        /*if (id == R.id.Sem2EE) {
+        }
+        if (id == R.id.Sem2EE) {
             Intent intent=new Intent(EEhome.this,Sem2EE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }/*
+        }
         if (id == R.id.Sem3EE) {
             Intent intent=new Intent(EEhome.this,Sem3EE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -108,22 +109,22 @@ public class EEhome extends AppCompatActivity
 
 
 
-        }/*
+        }
         if (id == R.id.Sem5EE) {
             Intent intent=new Intent(EEhome.this,Sem5EE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }*/
-        /*
+        }
+
         if (id == R.id.Sem6EE) {
             Intent intent=new Intent(EEhome.this,Sem6EE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }*/
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
