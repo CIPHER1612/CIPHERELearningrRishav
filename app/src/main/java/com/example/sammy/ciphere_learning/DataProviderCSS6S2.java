@@ -8,7 +8,7 @@ import java.util.List;
  * Created by sammy on 11-02-2018.
  */
 
-public class DataProviderCSS5S4 {
+public class DataProviderCSS6S2 {
     public static HashMap<String, List<String>> getInfo() {
 
         HashMap<String, List<String>> MoviesDetails = new HashMap<String, List<String>>();
@@ -51,12 +51,12 @@ public class DataProviderCSS5S4 {
         Differential_Equiations.add("Question Papers");
         Differential_Equiations.add("Videos");
 
-        MoviesDetails.put("Green IT: An Overview", Digital_and_Computer_Fundamentals);
-        MoviesDetails.put("Green Devices and Hardware with Green Software", Differential_Calculus);
-        MoviesDetails.put("Green Enterprises and the Role of IT", Applications_of_Differentiation);
-        MoviesDetails.put("Managing Green IT", Integral_Calculus);
-        MoviesDetails.put("Regulating the Green IT: Laws, Standards and Protocols", Definite_Integrals_and_its_Applicaitons);
-        MoviesDetails.put("Green IT: An Outlook", Differential_Equiations);
+        MoviesDetails.put("Introduction and Cryptography", Digital_and_Computer_Fundamentals);
+        MoviesDetails.put("Hardware and Software Security", Differential_Calculus);
+        MoviesDetails.put("Intrusion Detection System and Firewalls", Applications_of_Differentiation);
+        MoviesDetails.put("Wireless Security", Integral_Calculus);
+        MoviesDetails.put("Web Security", Definite_Integrals_and_its_Applicaitons);
+        MoviesDetails.put("Security and Law, Internet Governance and Email Policy", Differential_Equiations);
         return MoviesDetails;
 
     }
