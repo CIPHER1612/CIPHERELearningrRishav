@@ -81,20 +81,20 @@ public class CEhome extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        /*if (id == R.id.Sem1CE) {
+        if (id == R.id.Sem1CE) {
             Intent intent=new Intent(CEhome.this,Sem1CE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }*/
-        /*if (id == R.id.Sem2CE) {
+        }
+        if (id == R.id.Sem2CE) {
             Intent intent=new Intent(CEhome.this,Sem2CE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }/*
+        }
         if (id == R.id.Sem3CE) {
             Intent intent=new Intent(CEhome.this,Sem3CE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -109,22 +109,22 @@ public class CEhome extends AppCompatActivity
 
 
 
-        }/*
+        }
         if (id == R.id.Sem5CE) {
             Intent intent=new Intent(CEhome.this,Sem5CE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }*/
-        /*
+        }
+
         if (id == R.id.Sem6CE) {
             Intent intent=new Intent(CEhome.this,Sem6CE.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }*/
+        }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
