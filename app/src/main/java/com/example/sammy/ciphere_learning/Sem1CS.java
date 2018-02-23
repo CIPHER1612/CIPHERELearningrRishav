@@ -44,15 +44,15 @@ public void onClick(View view) {
             case R.id.Subject2:
                 startActivity(new Intent(this, CSS1S2.class));
                 break;
-            /*case R.id.Subject3:
-                startActivity(new Intent(this, ECS1S3.class));
+            case R.id.Subject3:
+                startActivity(new Intent(this, CSS1S3.class));
                 break;
             case R.id.Subject4:
-                startActivity(new Intent(this, ECS1S4.class));
+                startActivity(new Intent(this, CSS1S4.class));
                 break;
             case R.id.Subject5:
-                startActivity(new Intent(this, ECS1S5.class));
-                break;*/
+                startActivity(new Intent(this, CSS1S5.class));
+                break;
             case R.id.Subject6:
                 startActivity(new Intent(this, CSS1S6.class));
                 break;
