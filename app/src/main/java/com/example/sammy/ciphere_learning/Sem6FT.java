@@ -1,22 +1,25 @@
+
 package com.example.sammy.ciphere_learning;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 
-public class Sem2CS extends AppCompatActivity implements View.OnClickListener {
+public class Sem6FT extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sem2_cs);
+        setContentView(R.layout.activity_sem6_ft);
         findViewById(R.id.Subject1).setOnClickListener(this);
         findViewById(R.id.Subject2).setOnClickListener(this);
         findViewById(R.id.Subject3).setOnClickListener(this);
         findViewById(R.id.Subject4).setOnClickListener(this);
         findViewById(R.id.Subject5).setOnClickListener(this);
         findViewById(R.id.Subject6).setOnClickListener(this);
+        findViewById(R.id.Subject7).setOnClickListener(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
@@ -36,25 +39,27 @@ public class Sem2CS extends AppCompatActivity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            /*case R.id.Subj1CS:
-                startActivity(new Intent(this, CSS2S1.class));
+           /* case R.id.Subject1:
+                startActivity(new Intent(this, FTS6S1.class));
                 break;
-            /*case R.id.Subj2CS:
-                startActivity(new Intent(this, CSS2S2.class));
+            case R.id.Subject2:
+                startActivity(new Intent(this, FTS6S2.class));
                 break;
-            case R.id.Subj3CS:
-                startActivity(new Intent(this, CSS2S3.class));
+            case R.id.Subject3:
+                startActivity(new Intent(this, FTS6S3.class));
                 break;
-            case R.id.Subj4CS:
-                startActivity(new Intent(this, CSS2S4.class));
+            case R.id.Subject4:
+                startActivity(new Intent(this, FTS6S4.class));
                 break;
-            case R.id.Subj5CS:
-                startActivity(new Intent(this, CSS2S5.class));
+            case R.id.Subject5:
+                startActivity(new Intent(this, FTS6S5.class));
                 break;
-            case R.id.Subj6CS:
-                startActivity(new Intent(this, CSS2S6.class));
+            case R.id.Subject6:
+                startActivity(new Intent(this, FTS6S6.class));
                 break;
-
+            case R.id.Subject7:
+                startActivity(new Intent(this, FTS6S7.class));
+                break;
 
         */
         }
