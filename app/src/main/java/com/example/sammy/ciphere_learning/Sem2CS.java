@@ -1,5 +1,6 @@
 package com.example.sammy.ciphere_learning;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -36,12 +37,13 @@ public class Sem2CS extends AppCompatActivity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            /*case R.id.Subj1CS:
-                startActivity(new Intent(this, CS2S1.class));
+            case R.id.Subject1:
+                startActivity(new Intent(this, CSS2S1.class));
                 break;
             /*case R.id.Subj2CS:
                 startActivity(new Intent(this, CSS2S2.class));
                 break;
+                /*
             case R.id.Subj3CS:
                 startActivity(new Intent(this, CSS2S3.class));
                 break;

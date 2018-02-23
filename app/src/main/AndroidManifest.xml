@@ -209,6 +209,11 @@
             android:name=".CES4S1"
             android:label="@string/title_activity_ces4_s1"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".CSS2S1"
+            android:label="@string/title_activity_ces4_s1"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MEhome"
             android:label="@string/title_activity_mehome"
