@@ -1,6 +1,5 @@
 package com.example.sammy.ciphere_learning;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,7 +10,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class CSS2S1 extends AppCompatActivity {
+public class CSS2S3 extends AppCompatActivity {
 
     ExpandableListView Exp_list;
     MoviesAdapter adapterX;
@@ -22,9 +21,9 @@ public class CSS2S1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cs2_s1);
-        Exp_list = findViewById(R.id.exp_list);
-        Movies_category = DataProviderCSS2S1.getInfo();
+        setContentView(R.layout.activity_css2_s3);
+        Exp_list = findViewById(R.id.exp_listcss2s3);
+        Movies_category = DataProviderCSS2S3.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());
         adapterX = new MoviesAdapter(this, Movies_category, Movies_list);
         Exp_list.setAdapter(adapterX);
