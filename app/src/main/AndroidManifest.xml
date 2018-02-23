@@ -218,7 +218,8 @@
         <activity
             android:name=".EEhome"
             android:label="@string/title_activity_eehome"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Sem3ME"></activity>
     </application>
 
 </manifest>
