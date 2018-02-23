@@ -1,5 +1,6 @@
 package com.example.sammy.ciphere_learning;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -80,7 +81,133 @@ public class CSS2S1 extends AppCompatActivity {
                     Intent intent = new Intent(MainActivity.this, L105.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
-                }*/
+                }
+                if (i1==1&&i==0) {
+                    Intent intent = new Intent(MainActivity.this, L101.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==1&&i==1) {
+                    Intent intent = new Intent(MainActivity.this, L102.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==1&&i==2) {
+                    Intent intent = new Intent(MainActivity.this, L103.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==1&i==3) {
+                    Intent intent = new Intent(MainActivity.this, L104.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==1&&i==4) {
+                    Intent intent = new Intent(MainActivity.this, L105.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==2&&i==0) {
+                    Intent intent = new Intent(MainActivity.this, L101.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==2&&i==1) {
+                    Intent intent = new Intent(MainActivity.this, L102.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==2&&i==2) {
+                    Intent intent = new Intent(MainActivity.this, L103.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==2&&i==3) {
+                    Intent intent = new Intent(MainActivity.this, L104.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==2&&i==4) {
+                    Intent intent = new Intent(MainActivity.this, L105.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==3&&i==0) {
+                    Intent intent = new Intent(MainActivity.this, L101.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==3&&i==1) {
+                    Intent intent = new Intent(MainActivity.this, L102.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==3&&i==2) {
+                    Intent intent = new Intent(MainActivity.this, L103.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==3&&i==3) {
+                    Intent intent = new Intent(MainActivity.this, L104.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==3&&i==4) {
+                    Intent intent = new Intent(MainActivity.this, L105.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==4&&i==0) {
+                    Intent intent = new Intent(MainActivity.this, L101.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==4&&i==1) {
+                    Intent intent = new Intent(MainActivity.this, L102.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==4&&i==2) {
+                    Intent intent = new Intent(MainActivity.this, L103.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==4&&i==3) {
+                    Intent intent = new Intent(MainActivity.this, L104.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==4&&i==4) {
+                    Intent intent = new Intent(MainActivity.this, L105.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==5&&i==0) {
+                    Intent intent = new Intent(MainActivity.this, L101.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==5&&i==1) {
+                    Intent intent = new Intent(MainActivity.this, L102.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==5&&i==2) {
+                    Intent intent = new Intent(MainActivity.this, L103.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==5&&i==3) {
+                    Intent intent = new Intent(MainActivity.this, L104.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                if (i1==5&&i==4) {
+                    Intent intent = new Intent(MainActivity.this, L105.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                }
+                */
 
                 //Toast.makeText(getBaseContext(),Movies_category.get(Movies_list.get(i)).get(i1)+"",Toast.LENGTH_LONG).show();
 
