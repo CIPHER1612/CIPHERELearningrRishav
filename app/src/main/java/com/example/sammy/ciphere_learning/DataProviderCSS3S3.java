@@ -8,7 +8,7 @@ import java.util.List;
  * Created by sammy on 11-02-2018.
  */
 
-public class DataProviderCSS3S1 {
+public class DataProviderCSS3S3 {
     public static HashMap<String, List<String>> getInfo() {
 
         HashMap<String, List<String>> MoviesDetails = new HashMap<String, List<String>>();
@@ -51,12 +51,12 @@ public class DataProviderCSS3S1 {
         Differential_Equiations.add("Question Papers");
         Differential_Equiations.add("Videos");
 
-        MoviesDetails.put("Introduction to 'C' Language", Digital_and_Computer_Fundamentals);
-        MoviesDetails.put("Decision making-Branching and Looping", Differential_Calculus);
-        MoviesDetails.put("Functions", Applications_of_Differentiation);
-        MoviesDetails.put("Arrays", Integral_Calculus);
-        MoviesDetails.put("Strings and Pre-processors", Definite_Integrals_and_its_Applicaitons);
-        MoviesDetails.put("Structures and Unions", Differential_Equiations);
+        MoviesDetails.put("Databases and Data Base Users", Digital_and_Computer_Fundamentals);
+        MoviesDetails.put("Data Modelling Using the Entity-Relationship(ER) Model", Differential_Calculus);
+        MoviesDetails.put("Relational Data Model and Relational Data Base Constraints", Applications_of_Differentiation);
+        MoviesDetails.put("SQL:Schema Definiton,constrants ,Queries and views", Integral_Calculus);
+        MoviesDetails.put("Functional Dependencies and Normalization for relational databases", Definite_Integrals_and_its_Applicaitons);
+        MoviesDetails.put("Fundamentals of DataBase Transaction Processing", Differential_Equiations);
         return MoviesDetails;
 
     }
