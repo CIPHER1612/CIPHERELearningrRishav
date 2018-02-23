@@ -231,7 +231,8 @@
         <activity android:name=".CSS1S5" />
         <activity android:name=".CSS1S6" />
         <activity android:name=".CSS2S3" />
-        <activity android:name=".CSS3S5"></activity>
+        <activity android:name=".CSS3S5" />
+        <activity android:name=".CSS3S2"></activity>
     </application>
 
 </manifest>
