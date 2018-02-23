@@ -24,7 +24,7 @@ public class CSS2S4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_css2_s4);
         Exp_list = findViewById(R.id.exp_listcss2s4);
-        Movies_category = DataProviderCSS1S6.getInfo();
+        Movies_category = DataProviderCSS2S4.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());
         adapterX = new MoviesAdapter(this, Movies_category, Movies_list);
         Exp_list.setAdapter(adapterX);

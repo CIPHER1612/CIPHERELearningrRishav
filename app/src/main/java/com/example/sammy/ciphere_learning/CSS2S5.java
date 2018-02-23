@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class CSS3S5 extends AppCompatActivity {
+public class CSS2S5 extends AppCompatActivity {
 
     ExpandableListView Exp_list;
     MoviesAdapter adapterX;
@@ -21,9 +21,9 @@ public class CSS3S5 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_css1_s5);
-        Exp_list = findViewById(R.id.exp_listCSS1S5);
-        Movies_category = DataProviderCSS1S2.getInfo();
+        setContentView(R.layout.activity_css2_s5);
+        Exp_list = findViewById(R.id.exp_listCSS2S5);
+        Movies_category = DataProviderCSS2S5.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());
         adapterX = new MoviesAdapter(this, Movies_category, Movies_list);
         Exp_list.setAdapter(adapterX);
