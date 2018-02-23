@@ -36,9 +36,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Regsetup" />
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
-        <activity android:name=".Sem1CS"
-
-            />
+        <activity android:name=".Sem1CS" />
         <activity android:name=".Sem2CS" />
         <activity android:name=".Sem3CS" />
         <activity android:name=".Sem4CS" />
@@ -209,7 +207,6 @@
             android:name=".CES4S1"
             android:label="@string/title_activity_ces4_s1"
             android:theme="@style/AppTheme.NoActionBar" />
-
         <activity
             android:name=".CSS2S1"
             android:label="@string/title_activity_ces4_s1"
@@ -226,7 +223,10 @@
             android:name=".EEhome"
             android:label="@string/title_activity_eehome"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Sem3ME"></activity>
+        <activity android:name=".Sem3ME" />
+        <activity android:name=".CSS1S2" />
+        <activity android:name=".CSS1S4" />
+        <activity android:name=".CSS1S6"></activity>
     </application>
 
 </manifest>

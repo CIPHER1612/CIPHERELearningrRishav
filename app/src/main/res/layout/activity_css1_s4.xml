@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sammy.ciphere_learning.CSS1S2">
+    tools:context="com.example.sammy.ciphere_learning.CSS1S4">
 
     <ExpandableListView
-        android:id="@+id/exp_list"
+        android:id="@+id/CSS1S4"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:divider="#A4C739"
