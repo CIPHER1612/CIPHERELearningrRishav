@@ -42,7 +42,7 @@
         <activity android:name=".Sem4CS" />
         <activity android:name=".Sem5CS" />
         <activity android:name=".Sem6CS" />
-        <activity android:name=".Sem1Me" />
+        <activity android:name=".Sem1ME" />
         <activity android:name=".Sem2ME" />
         <activity android:name=".Sem3ME" />
         <activity android:name=".Sem4ME" />
@@ -226,6 +226,9 @@
         <activity android:name=".Sem3ME" />
         <activity android:name=".CSS1S2" />
         <activity android:name=".CSS1S4" />
+        <activity android:name=".CSS1S1" />
+        <activity android:name=".CSS1S3" />
+        <activity android:name=".CSS1S5" />
         <activity android:name=".CSS1S6"></activity>
     </application>
 
