@@ -1,5 +1,6 @@
 package com.example.sammy.ciphere_learning;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -79,20 +80,20 @@ public class MEhome extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
-         /*if (id == R.id.Sem1ME) {
+         if (id == R.id.Sem1ME) {
             Intent intent=new Intent(MEhome.this,Sem1ME.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }*/
-        /*if (id == R.id.Sem2ME) {
+        }
+        if (id == R.id.Sem2ME) {
             Intent intent=new Intent(MEhome.this,Sem2ME.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }/*
+        }
         if (id == R.id.Sem3ME) {
             Intent intent=new Intent(MEhome.this,Sem3ME.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -107,22 +108,22 @@ public class MEhome extends AppCompatActivity
 
 
 
-        }/*
+        }
         if (id == R.id.Sem5ME) {
             Intent intent=new Intent(MEhome.this,Sem5ME.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }*/
-        /*
+        }
+
         if (id == R.id.Sem6ME) {
             Intent intent=new Intent(MEhome.this,Sem6ME.class);
             intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
 
 
-        }*/
+        }
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
