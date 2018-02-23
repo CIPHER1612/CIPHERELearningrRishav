@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 
-public class Sem1Me extends AppCompatActivity implements View.OnClickListener {
+public class Sem1ME extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

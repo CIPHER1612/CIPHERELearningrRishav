@@ -36,18 +36,20 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Regsetup" />
         <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
-        <activity android:name=".Sem1CS" />
+        <activity android:name=".Sem1CS"
+
+            />
         <activity android:name=".Sem2CS" />
         <activity android:name=".Sem3CS" />
         <activity android:name=".Sem4CS" />
         <activity android:name=".Sem5CS" />
         <activity android:name=".Sem6CS" />
         <activity android:name=".Sem1Me" />
-        <activity android:name=".Sem2Me" />
-        <activity android:name=".Sem3Me" />
-        <activity android:name=".Sem4Me" />
-        <activity android:name=".Sem5Me" />
-        <activity android:name=".Sem6Me" />
+        <activity android:name=".Sem2ME" />
+        <activity android:name=".Sem3ME" />
+        <activity android:name=".Sem4ME" />
+        <activity android:name=".Sem5ME" />
+        <activity android:name=".Sem6ME" />
         <activity
             android:name=".CEhome"
             android:label="@string/title_activity_cehome"
