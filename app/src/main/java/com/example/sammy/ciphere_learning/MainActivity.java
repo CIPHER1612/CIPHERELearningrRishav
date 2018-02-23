@@ -15,8 +15,6 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private FirebaseAuth mAuth;
-    private FirebaseFirestore Fstore;
     EditText editTextEmail, editTextPassword,editTextRegNo;
     String cs="cs";
     String ec="ec";
@@ -25,8 +23,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     String ce="ce";
     String me="me";
     String ok;
-
-
+    private FirebaseAuth mAuth;
+    private FirebaseFirestore Fstore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,8 +32,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        editTextEmail=(EditText) findViewById(R.id.editTextEmailreg2);
-        editTextPassword=(EditText) findViewById(R.id.editTextPasswordreg2);
+        editTextEmail = findViewById(R.id.editTextEmailreg2);
+        editTextPassword = findViewById(R.id.editTextPasswordreg2);
 
         findViewById(R.id.regButton).setOnClickListener(this);
         findViewById(R.id.LogButton).setOnClickListener(this);
@@ -89,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     public void onComplete(@NonNull Task<DocumentSnapshot> task) {
                         if (task.isSuccessful()){
                             DocumentSnapshot documentSnapshot=task.getResult();
-                            String depid=documentSnapshot.getString("Deptid");
+                            String depid = documentSnapshot.getString("Deptid").toLowerCase();
                             if(depid.matches(cs)) {
                                 Intent intent=new Intent(MainActivity.this,CShome.class);
                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

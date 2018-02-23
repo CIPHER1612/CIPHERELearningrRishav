@@ -4,18 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.sammy.ciphere_learning.CSS2S1">
+    tools:context="com.example.sammy.ciphere_learning.CSS2S2">
 
     <ExpandableListView
         android:id="@+id/exp_list"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:divider="#A4C739"
         android:dividerHeight="0.5dp"
         android:headerDividersEnabled="false"
 
-
-        android:padding="10dp"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemPaddingLeft"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
