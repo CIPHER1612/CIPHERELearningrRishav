@@ -38,7 +38,7 @@ public class Sem6CS extends AppCompatActivity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-           /* case R.id.Subject1:
+            case R.id.Subject1:
                 startActivity(new Intent(this, CSS6S1.class));
                 break;
             case R.id.Subject2:
@@ -58,7 +58,7 @@ public class Sem6CS extends AppCompatActivity implements View.OnClickListener {
                 break;
 
 
-        */
+
         }
 
     }

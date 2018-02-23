@@ -40,25 +40,25 @@ public class Sem2CS extends AppCompatActivity implements View.OnClickListener {
             case R.id.Subject1:
                 startActivity(new Intent(this, CSS2S1.class));
                 break;
-            /*case R.id.Subj2CS:
+            case R.id.Subject2:
                 startActivity(new Intent(this, CSS2S2.class));
                 break;
-                /*
-            case R.id.Subj3CS:
+
+            case R.id.Subject3:
                 startActivity(new Intent(this, CSS2S3.class));
                 break;
-            case R.id.Subj4CS:
+            case R.id.Subject4:
                 startActivity(new Intent(this, CSS2S4.class));
                 break;
-            case R.id.Subj5CS:
+            case R.id.Subject5:
                 startActivity(new Intent(this, CSS2S5.class));
                 break;
-            case R.id.Subj6CS:
+            case R.id.Subject6:
                 startActivity(new Intent(this, CSS2S6.class));
                 break;
 
 
-        */
+
         }
 
     }

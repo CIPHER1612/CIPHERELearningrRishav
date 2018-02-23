@@ -40,7 +40,7 @@ public class Sem5CS extends AppCompatActivity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-           /* case R.id.Subject1:
+            case R.id.Subject1:
                 startActivity(new Intent(this, CSS5S1.class));
                 break;
             case R.id.Subject2:
@@ -61,14 +61,12 @@ public class Sem5CS extends AppCompatActivity implements View.OnClickListener {
             case R.id.Subject7:
                 startActivity(new Intent(this, CSS5S7.class));
                 break;
-            case R.id.Subject8:
-                startActivity(new Intent(this, CSS5S8.class));
-                break;
 
 
 
 
-        */
+
+
         }
 
     }

@@ -1,6 +1,7 @@
 
 package com.example.sammy.ciphere_learning;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -39,39 +40,33 @@ public class Sem4CS extends AppCompatActivity implements View.OnClickListener {
 
 
     @Override
-    public void onClick(View view) {/*
+    public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.Subj1CS:
+            case R.id.Subject1:
                 startActivity(new Intent(this, CSS4S1.class));
                 break;
-            case R.id.Subj2CS:
+            case R.id.Subject2:
                 startActivity(new Intent(this, CSS4S2.class));
                 break;
-            case R.id.Subj3CS:
+            case R.id.Subject3:
                 startActivity(new Intent(this, CSS4S3.class));
                 break;
-            case R.id.Subj4CS:
+            case R.id.Subject4:
                 startActivity(new Intent(this, CSS4S4.class));
                 break;
-            case R.id.Subj5CS:
+            case R.id.Subject5:
                 startActivity(new Intent(this, CSS4S5.class));
                 break;
-            case R.id.Subj6CS:
+            case R.id.Subject6:
                 startActivity(new Intent(this, CSS4S6.class));
                 break;
             case R.id.Subj7CS:
                 startActivity(new Intent(this, CSS4S7.class));
                 break;
-            case R.id.Subj8CS:
-                startActivity(new Intent(this, CSS4S8.class));
-                break;
-            case R.id.Subj9CS:
-                startActivity(new Intent(this, CSS4S9.class));
-                break;
 
 
-        */
+
+
     }
 
-}
-//}
+}}

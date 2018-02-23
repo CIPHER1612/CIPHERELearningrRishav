@@ -40,7 +40,7 @@ public class Sem3CS extends AppCompatActivity implements View.OnClickListener{
 
     @Override
     public void onClick(View view) {
-        /*switch (view.getId()) {
+        switch (view.getId()) {
             case R.id.Subject1:
                 startActivity(new Intent(this, CSS3S1.class));
                 break;
@@ -62,14 +62,9 @@ public class Sem3CS extends AppCompatActivity implements View.OnClickListener{
             case R.id.Subject7:
                 startActivity(new Intent(this, CSS3S7.class));
                 break;
-            case R.id.Subject8:
-                startActivity(new Intent(this, CSS3S8.class));
-                break;
-            case R.id.Subject9:
-                startActivity(new Intent(this, CSS3S9.class));
-                break;
 
-        }*/
+
+        }
 
     }
 }

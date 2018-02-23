@@ -22,7 +22,7 @@ public class CSS5S5 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_css5_s3);
+        setContentView(R.layout.activity_css5_s5);
         Exp_list = findViewById(R.id.exp_listcss5s5);
         Movies_category = DataProviderCSS5S5.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());
