@@ -273,7 +273,13 @@
         <activity android:name=".MES2S3" />
         <activity android:name=".MES2S4" />
         <activity android:name=".MES2S5" />
-        <activity android:name=".MES2S6"></activity>
+        <activity android:name=".MES2S6" />
+        <activity android:name=".MES3S1" />
+        <activity android:name=".MES3S2" />
+        <activity android:name=".MES3S3" />
+        <activity android:name=".MES3S4" />
+        <activity android:name=".MES3S5" />
+        <activity android:name=".MES3S6"></activity>
     </application>
 
 </manifest>
