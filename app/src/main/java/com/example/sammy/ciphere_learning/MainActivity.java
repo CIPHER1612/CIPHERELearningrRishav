@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.regButton:
-                progressBar2.setVisibility(View.VISIBLE);
+
                 startActivity(new Intent(this, RegActivity.class));
-                progressBar2.setVisibility(View.INVISIBLE);
+
                 break;
             case R.id.LogButton:
                 userlogin();
@@ -67,6 +67,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void userlogin() {
+        progressBar2.setVisibility(View.VISIBLE);
         String email = editTextEmail.getText().toString().trim();
         String password = editTextPassword.getText().toString().trim();
 
@@ -91,6 +92,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
+                progressBar2.setVisibility(View.INVISIBLE);
 
                 if (task.isSuccessful()) {
                     String usid = mAuth.getCurrentUser().getUid();
