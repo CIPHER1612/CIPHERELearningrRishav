@@ -332,7 +332,13 @@
         <activity android:name=".EES1S3" />
         <activity android:name=".EES1S4" />
         <activity android:name=".EES1S5" />
-        <activity android:name=".EES1S6"></activity>
+        <activity android:name=".EES1S6" />
+        <activity android:name=".EES2S1" />
+        <activity android:name=".EES2S2" />
+        <activity android:name=".EES2S3" />
+        <activity android:name=".EES2S4" />
+        <activity android:name=".EES2S5" />
+        <activity android:name=".EES2S6"></activity>
     </application>
 
 </manifest>
