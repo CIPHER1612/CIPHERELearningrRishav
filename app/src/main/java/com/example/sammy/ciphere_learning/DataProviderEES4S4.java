@@ -8,7 +8,7 @@ import java.util.List;
  * Created by sammy on 11-02-2018.
  */
 
-public class DataProviderEES3S4 {
+public class DataProviderEES4S4 {
     public static HashMap<String, List<String>> getInfo() {
 
         HashMap<String, List<String>> MoviesDetails = new HashMap<String, List<String>>();
@@ -19,6 +19,7 @@ public class DataProviderEES3S4 {
         Digital_and_Computer_Fundamentals.add("Syllabus");
         Digital_and_Computer_Fundamentals.add("Question Papers");
         Digital_and_Computer_Fundamentals.add("Videos");
+
         List<String> Differential_Calculus = new ArrayList<String>();
         Differential_Calculus.add("Notes");
         Differential_Calculus.add("Textbook");
@@ -54,13 +55,12 @@ public class DataProviderEES3S4 {
         Differential_Equiations.add("Question Papers");
         Differential_Equiations.add("Videos");
 
-        MoviesDetails.put("IC Logic families", Digital_and_Computer_Fundamentals);
-        MoviesDetails.put("Digital Principles", Differential_Calculus);
-        MoviesDetails.put("Boolean Algebra & Logic Gates", Applications_of_Differentiation);
-        MoviesDetails.put("Combinational Logic Circuits", Integral_Calculus);
-        MoviesDetails.put("Sequential Logic Circuits", Definite_Integrals_and_its_Applicaitons);
-        MoviesDetails.put("Digital Interfacing and Memories", Differential_Equiations);
-
+        MoviesDetails.put("HUMAN VALUES  ", Digital_and_Computer_Fundamentals);
+        MoviesDetails.put("ENGINEERING ETHICS", Differential_Calculus);
+        MoviesDetails.put("SAFETY, RESPONSIBILITIES OF ENGINEERS  ", Applications_of_Differentiation);
+        MoviesDetails.put("ETHICAL ISSUES IN ENGINEERING PRACTICE ", Integral_Calculus);
+        MoviesDetails.put("HUMAN RIGHTS  ", Definite_Integrals_and_its_Applicaitons);
+        MoviesDetails.put("INDIAN CONSTITUTION", Differential_Equiations);
         return MoviesDetails;
 
     }
