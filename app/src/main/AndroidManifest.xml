@@ -308,7 +308,25 @@
         <activity android:name=".CES2S6" />
         <activity android:name=".CES3S5" />
         <activity android:name=".CES3S6" />
-        <activity android:name=".CES3S7"></activity>
+        <activity android:name=".CES3S7" />
+        <activity android:name=".CES4S2" />
+        <activity android:name=".CES4S3" />
+        <activity android:name=".CES4S4" />
+        <activity android:name=".CES4S5" />
+        <activity android:name=".CES4S6" />
+        <activity android:name=".CES4S7" />
+        <activity android:name=".CES5S1" />
+        <activity android:name=".CES5S2" />
+        <activity android:name=".CES5S3" />
+        <activity android:name=".CES5S4" />
+        <activity android:name=".CES5S5" />
+        <activity android:name=".CES5S6" />
+        <activity android:name=".CES6S1" />
+        <activity android:name=".CES6S2" />
+        <activity android:name=".CES6S3" />
+        <activity android:name=".CES6S4" />
+        <activity android:name=".CES6S5" />
+        <activity android:name=".CES6S6"></activity>
     </application>
 
 </manifest>
