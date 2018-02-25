@@ -27,40 +27,10 @@ public class DataProviderEES5S5 {
         Differential_Calculus.add("Question Papers");
         Differential_Calculus.add("Videos");
 
-        List<String> Applications_of_Differentiation = new ArrayList<String>();
-        Applications_of_Differentiation.add("Notes");
-        Applications_of_Differentiation.add("Textbook");
-        Applications_of_Differentiation.add("Syllabus");
-        Applications_of_Differentiation.add("Question Papers");
-        Applications_of_Differentiation.add("Videos");
 
-        List<String> Integral_Calculus = new ArrayList<String>();
-        Integral_Calculus.add("Notes");
-        Integral_Calculus.add("Textbook");
-        Integral_Calculus.add("Syllabus");
-        Integral_Calculus.add("Question Papers");
-        Integral_Calculus.add("Videos");
+        MoviesDetails.put(" UNIT 1", Digital_and_Computer_Fundamentals);
+        MoviesDetails.put(" UNIT 2", Differential_Calculus);
 
-        List<String> Definite_Integrals_and_its_Applicaitons = new ArrayList<String>();
-        Definite_Integrals_and_its_Applicaitons.add("Notes");
-        Definite_Integrals_and_its_Applicaitons.add("Textbook");
-        Definite_Integrals_and_its_Applicaitons.add("Syllabus");
-        Definite_Integrals_and_its_Applicaitons.add("Question Papers");
-        Definite_Integrals_and_its_Applicaitons.add("Videos");
-
-        List<String> Differential_Equiations = new ArrayList<String>();
-        Differential_Equiations.add("Notes");
-        Differential_Equiations.add("Textbook");
-        Differential_Equiations.add("Syllabus");
-        Differential_Equiations.add("Question Papers");
-        Differential_Equiations.add("Videos");
-
-        MoviesDetails.put(" Transformers  ", Digital_and_Computer_Fundamentals);
-        MoviesDetails.put(" Three phase Transformers ", Differential_Calculus);
-        MoviesDetails.put(" Induction Motors  ", Applications_of_Differentiation);
-        MoviesDetails.put(" Starting and Speed control of Induction Motors ", Integral_Calculus);
-        MoviesDetails.put("Synchronous Motors  ", Definite_Integrals_and_its_Applicaitons);
-        MoviesDetails.put("Single phase Motors ", Differential_Equiations);
         return MoviesDetails;
 
     }
