@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class ECS1S6 extends AppCompatActivity {
+public class ECS4S6 extends AppCompatActivity {
 
     ExpandableListView Exp_list;
     MoviesAdapter adapterX;
@@ -21,9 +21,9 @@ public class ECS1S6 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ecs1_s6);
-        Exp_list = findViewById(R.id.exp_listecs1s6);
-        Movies_category = DataProviderECS1S6.getInfo();
+        setContentView(R.layout.activity_ecs4_s6);
+        Exp_list = findViewById(R.id.exp_listecs4s6);
+        Movies_category = DataProviderECS4S6.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());
         adapterX = new MoviesAdapter(this, Movies_category, Movies_list);
         Exp_list.setAdapter(adapterX);
