@@ -359,7 +359,11 @@
         <activity android:name=".EES5S5" />
         <activity android:name=".EES6S1" />
         <activity android:name=".EES6S2" />
-        <activity android:name=".L101"></activity>
+        <activity android:name=".L101" />
+        <activity android:name=".L102" />
+        <activity android:name=".L103" />
+        <activity android:name=".L104" />
+        <activity android:name=".L105"></activity>
     </application>
 
 </manifest>
