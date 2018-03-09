@@ -21,7 +21,7 @@ public class FTS2S1 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ft2_s1);
+        setContentView(R.layout.activity_fts2_s1);
         Exp_list = findViewById(R.id.exp_listfts2s1);
         Movies_category = DataProviderFTS2S1.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());

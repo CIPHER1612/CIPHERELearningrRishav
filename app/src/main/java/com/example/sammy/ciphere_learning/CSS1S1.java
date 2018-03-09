@@ -57,11 +57,11 @@ public class CSS1S1 extends AppCompatActivity {
                 int fs = i1;
                 int ps = i;
                 Toast.makeText(getApplicationContext(), "vlaue is " + fs, Toast.LENGTH_LONG).show();
-                /*if (i1==0&&i==0) {
-                    Intent intent = new Intent(MainActivity.this, L101.class);
+                if (i1==0&&i==0) {
+                    Intent intent = new Intent(CSS1S1.this, L101.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
-                }
+                }/*
                 if (i1==0&&i==1) {
                     Intent intent = new Intent(MainActivity.this, L102.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

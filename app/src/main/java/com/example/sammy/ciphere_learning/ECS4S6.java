@@ -23,7 +23,7 @@ public class ECS4S6 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ecs4_s6);
         Exp_list = findViewById(R.id.exp_listecs4s6);
-        Movies_category = DataProviderECS4S6.getInfo();
+       // Movies_category = DataProviderECS4S6.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());
         adapterX = new MoviesAdapter(this, Movies_category, Movies_list);
         Exp_list.setAdapter(adapterX);

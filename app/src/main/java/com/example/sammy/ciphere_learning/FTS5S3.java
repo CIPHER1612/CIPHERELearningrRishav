@@ -23,7 +23,7 @@ public class FTS5S3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fts5_s3);
         Exp_list = findViewById(R.id.exp_listfts5s3);
-        Movies_category = DataProviderFTs5S3.getInfo();
+        Movies_category = DataProviderFTS5S3.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());
         adapterX = new MoviesAdapter(this, Movies_category, Movies_list);
         Exp_list.setAdapter(adapterX);

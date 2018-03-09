@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CIPHERELearningrRishavnew.iml" filepath="$PROJECT_DIR$/CIPHERELearningrRishavnew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/CIPHERELearningrRishav.iml" filepath="$PROJECT_DIR$/.idea/CIPHERELearningrRishav.iml" />
+      <module fileurl="file://G:\things\CIPHERELearningrRishav\CIPHERELearningrRishavnew.iml" filepath="G:\things\CIPHERELearningrRishav\CIPHERELearningrRishavnew.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

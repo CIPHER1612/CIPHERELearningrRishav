@@ -22,7 +22,7 @@ public class FTS1S5 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fts1_s5);
-        Exp_list = findViewById(R.id.exp_lisfts1s5);
+        Exp_list = findViewById(R.id.exp_listfts1s5);
         Movies_category = DataProviderECS1S5.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());
         adapterX = new MoviesAdapter(this, Movies_category, Movies_list);

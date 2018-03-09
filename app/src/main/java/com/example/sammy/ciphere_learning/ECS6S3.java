@@ -23,7 +23,7 @@ public class ECS6S3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ecs6_s3);
         Exp_list = findViewById(R.id.exp_listecs6s3);
-        Movies_category = DataProviderECS6S3.getInfo();
+       // Movies_category = DataProviderECS6S3.getInfo();
         Movies_list = new ArrayList<String>(Movies_category.keySet());
         adapterX = new MoviesAdapter(this, Movies_category, Movies_list);
         Exp_list.setAdapter(adapterX);
