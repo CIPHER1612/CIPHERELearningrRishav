@@ -363,7 +363,17 @@
         <activity android:name=".L102" />
         <activity android:name=".L103" />
         <activity android:name=".L104" />
-        <activity android:name=".L105"></activity>
+        <activity android:name=".L105" />
+        <activity android:name=".L201" />
+        <activity android:name=".L202" />
+        <activity android:name=".L203" />
+        <activity android:name=".L204" />
+        <activity android:name=".L205" />
+        <activity android:name=".L301" />
+        <activity android:name=".L302" />
+        <activity android:name=".L303" />
+        <activity android:name=".L304" />
+        <activity android:name=".L305"></activity>
     </application>
 
 </manifest>
