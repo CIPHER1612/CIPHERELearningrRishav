@@ -380,6 +380,9 @@
         <activity android:name=".CSS2S1L101" />
         <activity android:name=".CSS1S1" />
         <activity android:name=".CSS1S5" />
+        <activity android:name=".CSS3S8" />
+        <activity android:name=".CSS3S9" />
+        <activity android:name=".CSSS4S3" />
     </application>
 
 </manifest>
