@@ -24,7 +24,7 @@ public class CSS3S7 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_css1_s1);
+        setContentView(R.layout.activity_css3_s7);
         css1c1t1=(WebView) findViewById(R.id.css1s1c1);
         css1c1t1.getSettings().setJavaScriptEnabled(true);
         css1c1t1.setFocusable(true);

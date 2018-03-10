@@ -7,7 +7,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-public class CSS4S4 extends AppCompatActivity {
+public class CSS4S8 extends AppCompatActivity {
 
     WebView css1c1t1;
 
@@ -24,7 +24,7 @@ public class CSS4S4 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_csss4_s3);
+        setContentView(R.layout.activity_css4_s8);
         css1c1t1=(WebView) findViewById(R.id.css1s1c1);
         css1c1t1.getSettings().setJavaScriptEnabled(true);
         css1c1t1.setFocusable(true);

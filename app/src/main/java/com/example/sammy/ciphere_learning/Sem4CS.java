@@ -41,7 +41,7 @@ public class Sem4CS extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     public void onClick(View view) {
-        /*switch (view.getId()) {
+        switch (view.getId()) {
             case R.id.Subject1:
                 startActivity(new Intent(this, CSS4S1.class));
                 break;
@@ -49,7 +49,7 @@ public class Sem4CS extends AppCompatActivity implements View.OnClickListener {
                 startActivity(new Intent(this, CSS4S2.class));
                 break;
             case R.id.Subject3:
-                startActivity(new Intent(this, CSS4S3.class));
+                startActivity(new Intent(this, CSSS4S3.class));
                 break;
             case R.id.Subject4:
                 startActivity(new Intent(this, CSS4S4.class));
@@ -67,6 +67,6 @@ public class Sem4CS extends AppCompatActivity implements View.OnClickListener {
 
 
 
-    }*/
+    }
 
 }}
