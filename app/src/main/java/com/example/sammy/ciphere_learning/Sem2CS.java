@@ -37,7 +37,7 @@ public class Sem2CS extends AppCompatActivity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.Subject1:
+           /* case R.id.Subject1:
                 startActivity(new Intent(this, CSS2S1.class));
                 break;
             case R.id.Subject2:
@@ -55,7 +55,7 @@ public class Sem2CS extends AppCompatActivity implements View.OnClickListener {
                 break;
             case R.id.Subject6:
                 startActivity(new Intent(this, CSS2S6.class));
-                break;
+                break;*/
 
 
 

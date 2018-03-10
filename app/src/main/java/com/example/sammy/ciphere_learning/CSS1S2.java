@@ -1,220 +1,41 @@
 package com.example.sammy.ciphere_learning;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ExpandableListView;
-import android.widget.Toast;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 public class CSS1S2 extends AppCompatActivity {
 
-    ExpandableListView Exp_list;
-    MoviesAdapter adapterX;
+    WebView css1c1t1;
 
-    List<String> Movies_list;
-    HashMap<String, List<String>> Movies_category;
+    @Override
+    public void onBackPressed(){
+        if(css1c1t1.canGoBack()){
+            css1c1t1.goBack();
+        }else{
+            super.onBackPressed();
+        }
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_css1_s2);
-        Exp_list = findViewById(R.id.exp_listCSS1S2);
-        Movies_category = DataProviderCSS1S2.getInfo();
-        Movies_list = new ArrayList<String>(Movies_category.keySet());
-        adapterX = new MoviesAdapter(this, Movies_category, Movies_list);
-        Exp_list.setAdapter(adapterX);
-
-        Exp_list.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
-            @Override
-            public void onGroupExpand(int i) {
-                //Toast.makeText(getBaseContext(),Movies_list.get(i)+"is expanded",Toast.LENGTH_LONG).show();
-            }
-        });
-
-        Exp_list.setOnGroupCollapseListener(new ExpandableListView.OnGroupCollapseListener() {
-            @Override
-            public void onGroupCollapse(int i) {
-                // Toast.makeText(getBaseContext(),Movies_list.get(i)+" is shrunk",Toast.LENGTH_LONG).show();
-
-            }
-        });
-        Exp_list.setOnGroupClickListener(new ExpandableListView.OnGroupClickListener() {
-            @Override
-            public boolean onGroupClick(ExpandableListView expandableListView, View view, int i, long l) {
-                int ps = i;
-                Toast.makeText(getApplicationContext(), "vlaue is " + ps, Toast.LENGTH_LONG).show();
-                return false;
-            }
-        });
-        Exp_list.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {
-            @Override
-            public boolean onChildClick(ExpandableListView expandableListView, View view, int i, int i1, long l) {
-                int fs = i1;
-                int ps = i;
-                Toast.makeText(getApplicationContext(), "vlaue is " + fs, Toast.LENGTH_LONG).show();
-                /*if (i1==0&&i==0) {
-                    Intent intent = new Intent(MainActivity.this, L101.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==0&&i==1) {
-                    Intent intent = new Intent(MainActivity.this, L102.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==0&&i==2) {
-                    Intent intent = new Intent(MainActivity.this, L103.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==0&&i==3) {
-                    Intent intent = new Intent(MainActivity.this, L104.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==0&&i==4) {
-                    Intent intent = new Intent(MainActivity.this, L105.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==1&&i==0) {
-                    Intent intent = new Intent(MainActivity.this, L201.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==1&&i==1) {
-                    Intent intent = new Intent(MainActivity.this, L202.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==1&&i==2) {
-                    Intent intent = new Intent(MainActivity.this, L203.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==1&i==3) {
-                    Intent intent = new Intent(MainActivity.this, L204.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==1&&i==4) {
-                    Intent intent = new Intent(MainActivity.this, L205.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==2&&i==0) {
-                    Intent intent = new Intent(MainActivity.this, L301.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==2&&i==1) {
-                    Intent intent = new Intent(MainActivity.this, L302.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==2&&i==2) {
-                    Intent intent = new Intent(MainActivity.this, L303.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==2&&i==3) {
-                    Intent intent = new Intent(MainActivity.this, L304.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==2&&i==4) {
-                    Intent intent = new Intent(MainActivity.this, L305.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==3&&i==0) {
-                    Intent intent = new Intent(MainActivity.this, L401.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==3&&i==1) {
-                    Intent intent = new Intent(MainActivity.this, L402.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==3&&i==2) {
-                    Intent intent = new Intent(MainActivity.this, L403.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==3&&i==3) {
-                    Intent intent = new Intent(MainActivity.this, L404.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==3&&i==4) {
-                    Intent intent = new Intent(MainActivity.this, L405.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==4&&i==0) {
-                    Intent intent = new Intent(MainActivity.this, L501.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==4&&i==1) {
-                    Intent intent = new Intent(MainActivity.this, L502.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==4&&i==2) {
-                    Intent intent = new Intent(MainActivity.this, L503.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==4&&i==3) {
-                    Intent intent = new Intent(MainActivity.this, L504.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==4&&i==4) {
-                    Intent intent = new Intent(MainActivity.this, L505.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==5&&i==0) {
-                    Intent intent = new Intent(MainActivity.this, L601.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==5&&i==1) {
-                    Intent intent = new Intent(MainActivity.this, L602.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==5&&i==2) {
-                    Intent intent = new Intent(MainActivity.this, L603.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==5&&i==3) {
-                    Intent intent = new Intent(MainActivity.this, L604.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                if (i1==5&&i==4) {
-                    Intent intent = new Intent(MainActivity.this, L605.class);
-                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(intent);
-                }
-                */
-
-                //Toast.makeText(getBaseContext(),Movies_category.get(Movies_list.get(i)).get(i1)+"",Toast.LENGTH_LONG).show();
-
-                return false;
-            }
-        });
-
-
+        css1c1t1=(WebView) findViewById(R.id.css1s1c1);
+        css1c1t1.getSettings().setJavaScriptEnabled(true);
+        css1c1t1.setFocusable(true);
+        css1c1t1.setFocusableInTouchMode(true);
+        css1c1t1.getSettings().setRenderPriority(WebSettings.RenderPriority.HIGH);
+        css1c1t1.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
+        css1c1t1.getSettings().setDomStorageEnabled(true);
+        css1c1t1.getSettings().setDatabaseEnabled(true);
+        css1c1t1.getSettings().setAppCacheEnabled(true);
+        css1c1t1.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+        css1c1t1.loadUrl("https://drive.google.com/open?id=1zsggfAZAONN9dlGUEsqj5BL97vEsTNfW");
+        css1c1t1.setWebViewClient(new WebViewClient());
     }
 }

@@ -358,8 +358,9 @@
         <activity android:name=".EES5S5" />
         <activity android:name=".EES6S1" />
         <activity android:name=".EES6S2" />
-        <activity android:name=".L101"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".L101"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".L102" />
         <activity android:name=".L103" />
         <activity android:name=".L104" />
@@ -374,7 +375,11 @@
         <activity android:name=".L303" />
         <activity android:name=".L304" />
         <activity android:name=".L305" />
-        <activity android:name=".adddatastaff"></activity>
+        <activity android:name=".adddatastaff" />
+        <activity android:name=".L101C2" />
+        <activity android:name=".CSS2S1L101" />
+        <activity android:name=".CSS1S1" />
+        <activity android:name=".CSS1S5" />
     </application>
 
 </manifest>

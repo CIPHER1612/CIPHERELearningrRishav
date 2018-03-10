@@ -120,6 +120,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                                     startActivity(intent);
 
                                 }
+                                else if (depid.matches(ee)) {
+                                    Intent intent = new Intent(MainActivity.this, CEhome.class);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                    startActivity(intent);
+
+                                }
+                                else if (depid.matches(ec)) {
+                                    Intent intent = new Intent(MainActivity.this, CEhome.class);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                    startActivity(intent);
+
+                                }
+                                else if (depid.matches(adft)) {
+                                    Intent intent = new Intent(MainActivity.this, CEhome.class);
+                                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                                    startActivity(intent);
+
+                                }
                             }
                         }
                     });
