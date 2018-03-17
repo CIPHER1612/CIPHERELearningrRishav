@@ -18,7 +18,8 @@ protected void onCreate(Bundle savedInstanceState) {
         findViewById(R.id.Subject3).setOnClickListener(this);
         findViewById(R.id.Subject4).setOnClickListener(this);
         findViewById(R.id.Subject5).setOnClickListener(this);
-        findViewById(R.id.Subject6).setOnClickListener(this);
+
+    findViewById(R.id.live).setOnClickListener(this);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
 
@@ -55,6 +56,9 @@ public void onClick(View view) {
                 break;
             case R.id.Subject6:
                 startActivity(new Intent(this, CSS1S6.class));
+                break;
+            case R.id.live:
+                startActivity(new Intent(this, LIVE.class));
                 break;
 
 
