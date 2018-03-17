@@ -34,7 +34,7 @@ public class LIVE extends AppCompatActivity {
         css1c1t1.getSettings().setDatabaseEnabled(true);
         css1c1t1.getSettings().setAppCacheEnabled(true);
         css1c1t1.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-        css1c1t1.loadUrl("http://www.youtube.com/user/scofodboys/live");
+        css1c1t1.loadUrl("https://www.youtube.com/channel/UCOcMUkqyJ3kC9aVHwBhVtww/live");
         css1c1t1.setWebViewClient(new WebViewClient());
     }
 }
